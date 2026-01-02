@@ -293,3 +293,7 @@ code, pre{
 }
 pre{ padding: 10px 12px; overflow:auto; }
 code{ padding: 2px 6px; }
+/* FIX: allow hidden attribute to actually hide the overlay */
+.overlay[hidden]{
+  display: none !important;
+}

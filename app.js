@@ -365,21 +365,3 @@ function initLangUI(){
 
   // if language is already saved, render once (handled above)
 })();
-// === HOTFIX: language overlay ===
-window.setLang = async function(code){
-  const overlay = document.getElementById("langOverlay");
-  if (overlay) overlay.hidden = true;
-
-  try {
-    localStorage.setItem("regionality_lang", code);
-    const res = await fetch(`lang/${code}.json`);
-    const data = await res.json();
-    window.__lang = data;
-    if (typeof render === "function") render();
-  } catch (err) {
-    console.error(err);
-    alert("Błąd języka: sprawdź plik lang/" + code + ".json (Console F12)");
-    if (overlay) overlay.hidden = false;
-  }
-};
-

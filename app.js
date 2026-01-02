@@ -296,9 +296,18 @@ function render(){
 }
 
 async function setLang(code){
-  setSavedLang(code);
-  await loadLang(code);
-  render();
+  const overlay = document.getElementById("langOverlay");
+  if (overlay) overlay.hidden = true;
+
+  try {
+    setSavedLang(code);
+    await loadLang(code);   // <- to ustawia I18N + CURRENT_LANG
+    render();               // <- od razu re-render w nowym języku
+  } catch (err) {
+    console.error(err);
+    alert("Błąd języka: nie mogę wczytać lang/" + code + ".json");
+    if (overlay) overlay.hidden = false;
+  }
 }
 
 function setupOverlay(){

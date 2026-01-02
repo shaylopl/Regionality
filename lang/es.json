@@ -1,0 +1,122 @@
+{
+  "ui": {
+    "home": "Menu",
+    "backHome": "← Wróć do menu",
+    "imageGuide": "instrukcja obrazkowa"
+  },
+  "lang": {
+    "pickTitle": "Wybierz język",
+    "pickSub": "Wybierz język, aby przejść dalej.",
+    "note": "Język możesz zmienić w prawym górnym rogu."
+  },
+  "home": {
+    "title": "Wybierz sekcję",
+    "sub": "Kliknij jedną z opcji poniżej."
+  },
+  "nav": {
+    "announcements": "Announcements",
+    "faq": "FAQ",
+    "guides": "Instrukcje / Proces",
+    "vouches": "Vouches",
+    "paymentMethods": "Payment Methods",
+    "priceListNintendo": "Top up Price List Nintendo",
+    "softbanNintendo": "Softban Nintendo – Basic Info"
+  },
+  "navSub": {
+    "announcements": "Aktualności i ważne info (na razie puste)",
+    "faq": "Najczęstsze pytania i odpowiedzi",
+    "guides": "Jak wygląda proces zakupu / doładowania",
+    "vouches": "Opinie i potwierdzenia transakcji",
+    "paymentMethods": "Dostępne metody płatności",
+    "priceListNintendo": "Cennik doładowań Nintendo (wkrótce)",
+    "softbanNintendo": "Wyjaśnienie softbana i co robić"
+  },
+  "pages": {
+    "announcements": {
+      "title": "Announcements",
+      "body": "Brak treści na ten moment — wkrótce."
+    },
+    "faq": {
+      "title": "FAQ",
+      "intro": "Poniżej znajdziesz odpowiedzi na najczęstsze pytania.",
+      "items": [
+        {
+          "q": "1. Co nasz serwer Regionality oferuje?",
+          "aHtml": "<ul><li>Doładowania i kupno gier głównie dla <strong>Nintendo</strong>, ale także dla <strong>PlayStation</strong>, <strong>Xbox</strong> czy <strong>Steam</strong>.</li><li>Dodatkowe inne usługi, których nie wymieniamy — warto zasugerować lub zapytać 🙂</li></ul>"
+        },
+        {
+          "q": "2. Jakie są ceny doładowań dla Nintendo?",
+          "aHtml": "<p>Sprawdź cennik tutaj: <a href=\"#price-list-nintendo\">Top up Price List Nintendo</a>.</p>"
+        },
+        {
+          "q": "3. Dlaczego warto nam zaufać?",
+          "aHtml": "<p>Posiadamy ponad <strong>4200</strong> zadowolonych klientów / udanych zakupów. Na ten moment możecie je podejrzeć tylko na naszym serwerze Discord — poniżej przykład gdzie to znaleźć:</p><div class=\"figure\"><img src=\"img/vouches.png\" alt=\"\" loading=\"lazy\" /><div class=\"figcap\">Zdjęcie: gdzie znaleźć vouches na Discordzie.</div></div>"
+        },
+        {
+          "q": "4. Czy mogę użyć mojego głównego konta Nintendo?",
+          "aHtml": "<p>Generalnie tak, jeśli tego wymagasz. Ale zawsze preferujemy używać <strong>osobnego konta</strong> dla Argentyny i nie mieszać tego.</p><p>Dlaczego? Często po doładowaniu może wystąpić <strong>softban</strong> po jakimś czasie i wtedy nie zmienisz łatwo regionu.</p><p>Co to jest softban? <a href=\"#softban-nintendo\">Softban Nintendo – Basic Info</a></p>"
+        },
+        {
+          "q": "5. W jakich krajach i serwisach działamy?",
+          "aHtml": "<p><strong>Nintendo</strong>: 🇦🇷 Argentyna, 🇧🇷 Brazylia, 🇨🇱 Chile, 🇲🇽 Meksyk</p><p><strong>PlayStation</strong>: 🇺🇦 Ukraina (najtańsze aktualnie na świecie PS Plus i kilka gier AAA), 🇹🇷 Turcja</p><p><strong>Xbox</strong>: 🇦🇷 Argentyna, 🇳🇬 Nigeria, 🇺🇦 Ukraina, 🇹🇷 Turcja, + inne</p><p><strong>Steam</strong>: 🇦🇷 Argentyna, 🇹🇷 Turcja, 🇺🇦 Ukraina, 🇧🇷 Brazylia, 🇵🇰 Pakistan / 🇿🇦 South Africa, 🇮🇳 Indie, + inne</p>"
+        },
+        {
+          "q": "6. Jak sprawdzić cenę gier?",
+          "aHtml": "<p>Na ten moment możecie sprawdzić ceny gier / pasabuy automatycznie w <strong>Nintendo Argentyna</strong> i <strong>Xbox Nigeria</strong> (poniżej przykład):</p><div class=\"figure\"><img src=\"img/price-check.png\" alt=\"\" loading=\"lazy\" /><div class=\"figcap\">Zdjęcie: kanał do automatycznego sprawdzania cen na Discordzie.</div></div><h4>Nintendo Argentyna</h4><p>Użyj komendy:</p><pre><code>Convert 4321</code></pre><p>Cyfrę <code>4321</code> zastąp ceną gry (np. Hollow Knight: <code>Convert 180</code>, bo gra kosztuje 179,99 ARS).</p><p><strong>Uwagi:</strong></p><ul><li>Jeśli kupujesz kilka gier naraz, zsumuj ceny wszystkich gier w ARS i użyj sumy w komendzie.</li><li>Ceny bierz tylko z eShop na konsoli lub z: <a href=\"https://www.dekudeals.com/\" target=\"_blank\" rel=\"noreferrer\">dekudeals.com</a></li></ul><h4>Xbox Nigeria</h4><p>Użyj komendy:</p><pre><code>Nigeria 4321</code></pre><ul><li>Jeśli kupujesz kilka gier naraz, zsumuj ceny i użyj sumy w komendzie.</li><li>Ceny bierz tylko z: <a href=\"https://www.xbox-now.com/\" target=\"_blank\" rel=\"noreferrer\">xbox-now.com</a></li></ul>"
+        }
+      ]
+    },
+    "guides": {
+      "title": "Instrukcje / Proces",
+      "intro": "Wybierz, dla jakiej platformy chcesz zobaczyć proces.",
+      "cards": {
+        "nintendo": { "title": "Nintendo Process", "sub": "Top-up i Pasabuy – jak to działa" },
+        "xbox": { "title": "Xbox Process", "sub": "Ticket i oczekiwanie na obsługę" },
+        "playstation": { "title": "PlayStation Process", "sub": "Ticket i realizacja" },
+        "steam": { "title": "Steam Process", "sub": "Ticket i realizacja" }
+      },
+      "nintendo": {
+        "p1": "Po sprawdzeniu ceny top up lub gier / Pasabuy (patrz FAQ) należy otworzyć ticket w odpowiednim miejscu i wybrać region oraz zadeklarowaną kwotę.",
+        "figTicket": "Nintendo: gdzie otworzyć ticket i wybrać region/kwotę.",
+        "topupTitle": "Top up (instrukcja)",
+        "figTopup": "Nintendo Top-up – kroki na konsoli.",
+        "pasabuyTitle": "Pasabuy (instrukcja)",
+        "figPasabuy": "Nintendo Pasabuy – kroki na konsoli."
+      },
+      "xbox": {
+        "p1": "Po wybraniu regionu (i ewentualnie ceny finalnej gry jeśli dotyczy Nigerii) należy otworzyć ticket i spokojnie poczekać aż ktoś odpowie.",
+        "figTicket": "Xbox/PlayStation: przykładowy panel do tworzenia ticketu."
+      },
+      "playstation": {
+        "p1": "Po wybraniu regionu oraz gry należy otworzyć ticket i spokojnie poczekać aż ktoś odpowie.",
+        "figTicket": "Xbox/PlayStation: przykładowy panel do tworzenia ticketu."
+      },
+      "steam": {
+        "p1": "Po wybraniu regionu oraz gry należy otworzyć ticket i spokojnie poczekać aż ktoś odpowie.",
+        "figTicket": "Steam: przykładowy panel do tworzenia ticketu."
+      }
+    },
+    "vouches": {
+      "title": "Vouches",
+      "body": "Nie zawiedziesz się — zawsze staramy się pomóc i zakupić to, czego oczekujesz. Mamy ponad 4200 zadowolonych klientów / transakcji. Na ten moment do sprawdzenia na serwerze Discord (patrz poniżej).",
+      "fig": "Zdjęcie: przykładowe miejsce z vouches na Discordzie."
+    },
+    "payments": {
+      "title": "Payment Methods",
+      "intro": "Dostępne metody płatności:",
+      "localPH": { "title": "Local – Philippines 🇵🇭", "items": "GCash • Maya • Gotyme" },
+      "localPL": { "title": "Local – Poland 🇵🇱", "items": "BLIK" },
+      "international": { "title": "International 🌐", "items": "Zen • Revolut • PayPal • Wise" },
+      "crypto": { "title": "Crypto (USDT / USDC) 💠", "items": "5% discount when choosing crypto payments (apply also on events)" },
+      "fig": "Screenshot: lista metod płatności."
+    },
+    "priceListNintendo": {
+      "title": "Top up Price List Nintendo",
+      "body": "Wkrótce — na razie puste."
+    },
+    "softbanNintendo": {
+      "title": "Softban Nintendo – Basic Info",
+      "bodyHtml": "<p><strong>Softban</strong> to w skrócie brak możliwości zakupu w Argentynie (lub innych krajach) co wynika z kodu błędu podczas zakupu: <strong>2813-2470</strong>.</p><p>Nintendo obwinia tym dostawcę karty / bank, ale to nie trzyma się kupy — ta sama karta potrafi działać świetnie na nowym koncie.</p><h3>Dlaczego mam softban? Przecież wcześniej normalnie zakupiłem?</h3><ul><li>Niestety softban wybiera sam dzień i godzinę 😅 To, że kupiłeś wcześniej u nas lub gdzieś indziej, nie znaczy że to się nie wydarzy.</li><li>Nie wiemy co powoduje softban na 100%, ale uważamy że może to być niezgodność lokalizacji IP (możemy się mylić).</li></ul><h3>Czy to kiedyś zniknie?</h3><p>Tak, ale czas jest losowy. Znamy przypadki gdzie znika po 3–7 dniach, a mamy też przypadek gdzie minęło pół roku i nadal nic.</p><h3>Jakie jest na to rozwiązanie?</h3><p>Czekać lub zrobić nowe konto / użyć innego starego.</p>"
+    }
+  }
+}

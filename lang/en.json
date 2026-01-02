@@ -1,0 +1,106 @@
+{
+  "ui": { "home": "Menu", "backHome": "← Back to menu", "imageGuide": "image guide" },
+  "lang": {
+    "pickTitle": "Choose language",
+    "pickSub": "Select your language to continue.",
+    "note": "You can change language anytime in the top-right corner."
+  },
+  "home": { "title": "Choose a section", "sub": "Pick one of the options below." },
+  "nav": {
+    "announcements": "Announcements",
+    "faq": "FAQ",
+    "guides": "Guides / Process",
+    "vouches": "Vouches",
+    "paymentMethods": "Payment Methods",
+    "priceListNintendo": "Nintendo Top-up Price List",
+    "softbanNintendo": "Nintendo Softban – Basic Info"
+  },
+  "navSub": {
+    "announcements": "News and important info (empty for now)",
+    "faq": "Common questions and answers",
+    "guides": "How top-ups / purchases work",
+    "vouches": "Proof and feedback",
+    "paymentMethods": "Available payment methods",
+    "priceListNintendo": "Nintendo top-up pricing (soon)",
+    "softbanNintendo": "What softban is and what to do"
+  },
+  "pages": {
+    "announcements": { "title": "Announcements", "body": "No content yet — coming soon." },
+    "faq": {
+      "title": "FAQ",
+      "intro": "Here are the most common questions we get.",
+      "items": [
+        {
+          "q": "1. What does the Regionality server offer?",
+          "aHtml": "<ul><li>Top-ups and game purchases mainly for <strong>Nintendo</strong>, but also <strong>PlayStation</strong>, <strong>Xbox</strong> and <strong>Steam</strong>.</li><li>Other extra services we don’t list — feel free to suggest or ask 🙂</li></ul>"
+        },
+        { "q": "2. What are Nintendo top-up prices?", "aHtml": "<p>Check the list here: <a href=\"#price-list-nintendo\">Nintendo Top-up Price List</a>.</p>" },
+        {
+          "q": "3. Why should you trust us?",
+          "aHtml": "<p>We have <strong>4200+</strong> happy customers / successful purchases. For now, you can view them only on our Discord server — here is an example of where to find them:</p><div class=\"figure\"><img src=\"img/vouches.png\" alt=\"\" loading=\"lazy\" /><div class=\"figcap\">Screenshot: where to find vouches on Discord.</div></div>"
+        },
+        {
+          "q": "4. Can I use my main Nintendo account?",
+          "aHtml": "<p>Generally yes, if you really need to. But we always prefer using a <strong>separate account</strong> for Argentina and not mixing regions.</p><p>Why? Sometimes after a top-up you can get a <strong>softban</strong> later, and then it’s harder to change regions.</p><p>What is a softban? <a href=\"#softban-nintendo\">Nintendo Softban – Basic Info</a></p>"
+        },
+        {
+          "q": "5. Which countries and services do you support?",
+          "aHtml": "<p><strong>Nintendo</strong>: 🇦🇷 Argentina, 🇧🇷 Brazil, 🇨🇱 Chile, 🇲🇽 Mexico</p><p><strong>PlayStation</strong>: 🇺🇦 Ukraine (currently one of the cheapest PS Plus regions + some AAA games), 🇹🇷 Turkey</p><p><strong>Xbox</strong>: 🇦🇷 Argentina, 🇳🇬 Nigeria, 🇺🇦 Ukraine, 🇹🇷 Turkey, + others</p><p><strong>Steam</strong>: 🇦🇷 Argentina, 🇹🇷 Turkey, 🇺🇦 Ukraine, 🇧🇷 Brazil, 🇵🇰 Pakistan / 🇿🇦 South Africa, 🇮🇳 India, + others</p>"
+        },
+        {
+          "q": "6. How can I check game prices?",
+          "aHtml": "<p>Right now you can check prices / pasabuy automatically for <strong>Nintendo Argentina</strong> and <strong>Xbox Nigeria</strong> (example below):</p><div class=\"figure\"><img src=\"img/price-check.png\" alt=\"\" loading=\"lazy\" /><div class=\"figcap\">Screenshot: Discord channel for automatic price checks.</div></div><h4>Nintendo Argentina</h4><p>Use:</p><pre><code>Convert 4321</code></pre><p>Replace <code>4321</code> with the game price (e.g., Hollow Knight: <code>Convert 180</code> because it costs 179.99 ARS).</p><p><strong>Notes:</strong></p><ul><li>If you buy multiple games at once, sum all ARS prices and use the total.</li><li>Use prices only from the console eShop or: <a href=\"https://www.dekudeals.com/\" target=\"_blank\" rel=\"noreferrer\">dekudeals.com</a></li></ul><h4>Xbox Nigeria</h4><p>Use:</p><pre><code>Nigeria 4321</code></pre><ul><li>If you buy multiple games at once, sum the prices and use the total.</li><li>Use prices only from: <a href=\"https://www.xbox-now.com/\" target=\"_blank\" rel=\"noreferrer\">xbox-now.com</a></li></ul>"
+        }
+      ]
+    },
+    "guides": {
+      "title": "Guides / Process",
+      "intro": "Choose the platform to view the process.",
+      "cards": {
+        "nintendo": { "title": "Nintendo Process", "sub": "Top-up and Pasabuy – how it works" },
+        "xbox": { "title": "Xbox Process", "sub": "Open a ticket and wait for support" },
+        "playstation": { "title": "PlayStation Process", "sub": "Open a ticket and wait for support" },
+        "steam": { "title": "Steam Process", "sub": "Open a ticket and wait for support" }
+      },
+      "nintendo": {
+        "p1": "After checking the top-up or game price / Pasabuy (see FAQ), open a ticket, choose the region and the declared amount.",
+        "figTicket": "Nintendo: where to open a ticket and select region/amount.",
+        "topupTitle": "Top-up (guide)",
+        "figTopup": "Nintendo Top-up – console steps.",
+        "pasabuyTitle": "Pasabuy (guide)",
+        "figPasabuy": "Nintendo Pasabuy – console steps."
+      },
+      "xbox": {
+        "p1": "After choosing the region (and the final game price if it’s Nigeria), open a ticket and calmly wait for a response.",
+        "figTicket": "Xbox/PlayStation: example ticket panel."
+      },
+      "playstation": {
+        "p1": "After choosing the region and the game, open a ticket and calmly wait for a response.",
+        "figTicket": "Xbox/PlayStation: example ticket panel."
+      },
+      "steam": {
+        "p1": "After choosing the region and the game, open a ticket and calmly wait for a response.",
+        "figTicket": "Steam: example ticket panel."
+      }
+    },
+    "vouches": {
+      "title": "Vouches",
+      "body": "You won’t be disappointed — we always try to help and deliver what you expect. We have 4200+ successful transactions. For now you can verify them on Discord (see below).",
+      "fig": "Screenshot: where to find vouches on Discord."
+    },
+    "payments": {
+      "title": "Payment Methods",
+      "intro": "Available payment methods:",
+      "localPH": { "title": "Local – Philippines 🇵🇭", "items": "GCash • Maya • Gotyme" },
+      "localPL": { "title": "Local – Poland 🇵🇱", "items": "BLIK" },
+      "international": { "title": "International 🌐", "items": "Zen • Revolut • PayPal • Wise" },
+      "crypto": { "title": "Crypto (USDT / USDC) 💠", "items": "5% discount when choosing crypto payments (applies also on events)" },
+      "fig": "Screenshot: payment methods list."
+    },
+    "priceListNintendo": { "title": "Nintendo Top-up Price List", "body": "Coming soon — empty for now." },
+    "softbanNintendo": {
+      "title": "Nintendo Softban – Basic Info",
+      "bodyHtml": "<p><strong>Softban</strong> usually means you can’t purchase in Argentina (or other regions) due to error code: <strong>2813-2470</strong>.</p><p>Nintendo often blames the card provider / bank, but it doesn’t fully make sense — the same card can work fine on a new account.</p><h3>Why do I have softban if I bought before?</h3><ul><li>Softban seems random — it can happen anytime 😅 Buying successfully before doesn’t guarantee it won’t happen later.</li><li>We don’t know the exact cause, but we suspect IP/location mismatch (we may be wrong).</li></ul><h3>Will it disappear?</h3><p>Yes, but timing is random. We’ve seen cases where it disappears after 3–7 days, and also a case where 6 months passed and it was still there.</p><h3>What’s the solution?</h3><p>Wait, or make a new account / use another older one.</p>"
+    }
+  }
+}
